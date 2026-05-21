@@ -1,0 +1,2 @@
+# LLM-Augmented-Forecasting-Pipeline-for-Bike-Sharing-Rebalancing
+Built an LLM-augmented forecasting pipeline for NYC Citi Bike using LangGraph. A multi-agent system trains and selects ML models (XGBoost, LightGBM) with configurable asymmetric loss to penalize demand overestimation, then feeds predictions into an LLM dispatch agent that calls tools to output actionable rebalancing decisions via Gradio.
